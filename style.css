@@ -1,0 +1,87 @@
+/* deleted all of the defauilt padding and margin*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*set the body color*/
+body{
+    background-color: #D8DA3D;
+}
+
+/*set the position og the first div*/
+#div1{
+    width:17%;
+    float: left;
+}
+
+/*set the position og the second div*/
+#div2{
+    float: right;
+    width: 83%;
+}
+
+/*set the margin of the third div*/
+#div3{
+    margin-top: 20px;
+}
+
+/*added style and appearance of the heading*/
+h1{
+    color: #80007E;
+    margin: 15px 0px 30px 0px;
+    font-family: sans-serif;
+}
+
+/*set the style and appearance of first paragraph */
+#para{
+    color: #80007E;
+    margin-top: 25px;
+    font-size:large;
+}
+
+/*set the style and appearance of second and third paragraph */
+.p2{
+    color: #80007E;
+    font-size:large;
+}
+
+/*set the style and appearance of dot line */
+.dot{
+    color: #80007E;
+    font-size:large;
+    margin-bottom: 15px;
+}
+
+/*set the style and appearance part1 of forth paragraph */
+.p3{
+    color: #80007E;
+    font-style: oblique;
+    font-size:large;
+    display: inline;
+}
+
+/*set the style and appearance part2 of forth paragraph */
+.p4{
+    font-family: Georgia, serif;
+    display: inline;
+    color: #80007E;
+}
+
+/*removed the default style of unordered list and set the top margin */
+ul{
+    list-style: none;
+    margin-top: 35px;
+}
+
+/* set the appearences and style of the lists */
+ul li{
+    background-color: white;
+    padding: 5px;
+    width: 180px;
+    margin: 10px 50px 10px 10px;
+    border-right: 18px solid black;
+    color: #af13ad;
+    font-size: large;
+    font-family: Georgia, serif;
+}
