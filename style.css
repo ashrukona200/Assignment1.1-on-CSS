@@ -11,14 +11,14 @@ body{
 
 /*set the position og the first div*/
 #div1{
-    width:17%;
+    width:20%;
     float: left;
 }
 
 /*set the position og the second div*/
 #div2{
     float: right;
-    width: 83%;
+    width: 80%;
 }
 
 /*set the margin of the third div*/
@@ -34,27 +34,32 @@ h1{
 }
 
 /*set the style and appearance of first paragraph */
-#para{
+#paragraph{
     color: #80007E;
     margin-top: 25px;
     font-size:large;
+    white-space: pre;
 }
 
 /*set the style and appearance of second and third paragraph */
-.p2{
+.paragraph2{
     color: #80007E;
     font-size:large;
+    white-space: pre;
+    margin-top: 20px;
 }
 
 /*set the style and appearance of dot line */
 .dot{
+    margin-top: 20px;
     color: #80007E;
-    font-size:large;
-    margin-bottom: 15px;
+    border-top-style: dotted;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /*set the style and appearance part1 of forth paragraph */
-.p3{
+.paragraph3{
     color: #80007E;
     font-style: oblique;
     font-size:large;
@@ -62,11 +67,12 @@ h1{
 }
 
 /*set the style and appearance part2 of forth paragraph */
-.p4{
+.paragraph4{
     font-family: Georgia, serif;
     display: inline;
     color: #80007E;
 }
+
 
 /*removed the default style of unordered list and set the top margin */
 ul{
